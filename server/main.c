@@ -18,7 +18,7 @@ int main(){
     }
     // 子进程
     close(exitPipe[1]);// 关闭写端
-    threadPool_t threadpool;
+    threadPool_t threadPool;
     
     return 0;
 }
